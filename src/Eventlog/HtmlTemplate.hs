@@ -150,7 +150,7 @@ template (EventlogType header' x y) as tab_groups = docTypeHtml $ do
 
 renderTab :: Header -> Tab -> Html
 renderTab header' tab =
-  H.div ! A.id (toValue (tabIDToTabID (tabId tab))) ! class_ ("tab-pane fade tabviz " <> status) $ H.div ! class_ "row" $ do
+  H.div ! A.id (toValue (tabIDToTabID (tabId tab))) ! class_ ("tab-pane tabviz " <> status) $ H.div ! class_ "row" $ do
     forM_ (tabContent tab) $ \stuff -> H.div ! class_ "col" $ do
       stuff
       perTabFooter header'
