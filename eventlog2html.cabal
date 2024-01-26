@@ -28,6 +28,7 @@ Extra-source-files:
   javascript/generated/vega-embed@6.14.0
   javascript/generated/vega@5.17.0
   javascript/generated/vega-lite@4.17.0
+  javascript/generated/popper.js@1.14.3
   inline-docs/*.html
 extra-doc-files: README.md
                  CHANGELOG
